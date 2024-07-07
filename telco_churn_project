@@ -18,6 +18,8 @@ file_repository = "C:/Users/21mel/OneDrive/Documents/datasets/Telco_Customer_Chu
 column_names = ["customerID","gender","SeniorCitizen","Partner","Dependents","tenure","PhoneService","MultipleLines","InternetService","OnlineSecurity","OnlineBackup","DeviceProtection","TechSupport","StreamingTV","StreamingMovies","Contract","PaperlessBuilding","PaymentMethod","MonthlyCharges","TotalCharges","Churn"]
 telco_data = pd.read_csv(file_repository, delimiter = ',', header = 0)
 
+##line break
+
 #take a look at how the data looks
 print(telco_data.head(1))
 
